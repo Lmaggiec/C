@@ -1,0 +1,3 @@
+In the program, the main data structure I used for simulating cache is called line. It contains three elements like a cache line. The structure is held by a 2D array. To realize the replacement policy of lru, it counts every time there is a hit and store the count in variable data. When it need to find the least recently used block, it can take the smallest one.
+
+The prefetcher increases the cache hits and memory reads as it fetches data before it is needed.
